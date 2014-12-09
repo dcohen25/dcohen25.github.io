@@ -190,35 +190,35 @@ function getMood(h, s, v){
         //Neutral
         return "neutral";
     }
-    if (h < 10 || h > 350){
+    if (h <= 10 || h >= 350){
         //Red
         return "loving";
     }
-    if (10 < h && h < 40){
+    if (10 <= h && h < 40){
         //Orange
         return "happy";
     }
-    if (40 < h && h < 60){
+    if (40 <= h && h < 60){
         //yellow
         return "happy";
     }
-    if (60 < h && h < 130){
+    if (60 <= h && h < 130){
         //Green
         return "energetic";
     }
-    if (130 < h && h < 210){
+    if (130 <= h && h < 210){
         //Light Blue
         return "energetic";
     }
-    if (210 < h && h < 250){
+    if (210 <= h && h < 250){
         //Blue
         return "sad";
     }
-    if (250 < h && h < 270){
+    if (250 <= h && h < 270){
         //Purple
         return "sad";
     }
-    if (270 < h && h < 350){
+    if (270 <= h && h < 350){
         //Pink
         return "loving";
     }

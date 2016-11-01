@@ -3,7 +3,7 @@ window.onload = function(){
 	imageForm.addEventListener("submit", function(e){
 		e.preventDefault();
 		var imageFile = document.getElementById("image-form-file");
-		var text = OCRAD(imageFile[0]);
+		var text = OCRAD(imageFile);
 		console.log(text);
 	});
 }
